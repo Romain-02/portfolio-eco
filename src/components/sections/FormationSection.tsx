@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export const FormationSection = () => {
     return (
         <div id="formation" className="section d-flex flex-column">
@@ -5,7 +7,7 @@ export const FormationSection = () => {
             <div className="d-flex flex-column justify-content-center align-items-center sub-section">
                 <div className="div-text reverse d-flex justify-content-center align-items-center w-100">
                     <div className="mr-4 ml-2 mb-2">
-                        <img src="/images/iut.jpg" className="effect" alt="iut"/>
+                        <Image src="/images/iut.jpg" className="effect" alt="iut" width={300} height={200} style={{objectFit: "cover", width: "100%", height: "auto"}}/>
                     </div>
                     <div style={{margin: 16}}>
                         <h3 className="effect">Préparation d'un bachelor universitaire de technologie (BUT)
@@ -24,7 +26,7 @@ export const FormationSection = () => {
                             bien.</p>
                     </div>
                     <div className="m-2 ml-4">
-                        <img id="lycee" className="effect" src="/images/lycee.png" alt=""/>
+                        <Image id="lycee" className="effect" src="/images/lycee.png" alt="lycee" width={300} height={200} style={{objectFit: "contain", width: "95%", height: "auto"}}/>
                     </div>
                 </div>
             </div>

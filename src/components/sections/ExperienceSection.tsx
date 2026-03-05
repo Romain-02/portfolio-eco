@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export const ExperienceSection = () => {
     return (
         <div id="experience" className="section d-flex flex-column">
@@ -5,7 +7,7 @@ export const ExperienceSection = () => {
             <div className="d-flex flex-column justify-content-center align-items-center sub-section">
                 <div className="div-text reverse d-flex justify-content-center align-items-center w-100">
                     <div className="mr-4 ml-2 mb-2 w-100">
-                        <img src="/images/logo-primever-2015-quadri.webp" className="primever-img" alt="primever"/>
+                        <Image src="/images/logo-primever-2015-quadri.webp" className="primever-img" alt="primever" width={300} height={120} style={{objectFit: "contain", width: "100%", height: "auto"}}/>
                     </div>
                     <div>
                         <h3 className="effect" style={{margin: 16}}>Développeur web full stack en alternance chez Primever (2025–2026)</h3>

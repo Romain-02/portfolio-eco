@@ -1,18 +1,20 @@
+import Image from "next/image";
+
 export const AboutSection = () => {
     return (
         <div id="about" className="section">
             <h2>Loisir</h2>
             <div className="d-flex justify-content-center align-items-center sub-section flex-wrap hobbyContainer mt-5 mb-0">
                 <div>
-                    <img src="/images/velo.png" className="hobbyImg" alt="sport"/>
+                    <Image src="/images/velo.png" className="hobbyImg" alt="sport" width={200} height={200} style={{objectFit: "contain"}}/>
                     <p>J'aime le sport depuis petit, en particulier le football. Aujourd'hui, je fais surtout de la course, du vélo et de la natation.</p>
                 </div>
                 <div className="effect">
-                    <img src="/images/manette.webp" className="hobbyImg" alt="jeux vidéos"/>
+                    <Image src="/images/manette.webp" className="hobbyImg" alt="jeux vidéos" width={200} height={200} style={{objectFit: "contain"}}/>
                     <p>J'ai toujours aimé les jeux vidéo, notamment le côté compétitif. C'est cela qui m'a motivé à apprendre la programmation.</p>
                 </div>
                 <div className="effect">
-                    <img src="/images/echec.png" className="hobbyImg" alt="echec"/>
+                    <Image src="/images/echec.png" className="hobbyImg" alt="echec" width={200} height={200} style={{objectFit: "contain"}}/>
                     <p>Après avoir créé un jeu d'échecs, j'ai commencé à y jouer de plus en plus afin de m'améliorer jusqu'à devenir un joueur régulier.</p>
                 </div>
             </div>

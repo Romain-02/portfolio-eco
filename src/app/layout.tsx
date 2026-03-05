@@ -13,7 +13,6 @@ export default function RootLayout({
           <meta charSet="UTF-8"/>
           <meta name="viewport" content="width=device-width, initial-scale=1"/>
           <title>Portfolio</title>
-          {/* Removed Bootstrap stylesheet - replaced by custom CSS in globals.css */}
       </head>
 
       <body>
