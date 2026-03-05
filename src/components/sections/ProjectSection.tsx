@@ -8,7 +8,7 @@ export const ProjectSection = () => {
             <div className="mx-auto w-75 projects-grid">
                 {/* Projet: Sélection naturelle */}
                 <article className="project-card">
-                    <Image style={{objectFit: "contain"}} className={"rounded-circle"} src="/images/java.svg" alt="Sélection naturelle - Java" width={160} height={160}/>
+                    <Image style={{objectFit: "contain"}} className={"rounded-circle"}  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Sélection naturelle - Java" width={160} height={160} unoptimized/>
                     <h3>Sélection naturelle</h3>
                     <p className="description">Il s'agit d'une petite simulation réalisée en JavaFX avec des attrapeurs et des fugitives qui possèdent différentes caractéristiques pour illustrer la sélection naturelle.</p>
                 </article>
