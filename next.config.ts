@@ -1,11 +1,12 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-    output: 'export',
-    basePath: '/portfolio-eco',
-    assetPrefix: '/portfolio-eco',
     images: {
-        unoptimized: true,
+        remotePatterns: [
+            { protocol: "https", hostname: "cdn.jsdelivr.net" },
+            { protocol: "https", hostname: "img.alwaysdata.com" },
+            { protocol: "https", hostname: "remiflandrois.fr" },
+        ],
     },
 };
 

@@ -8,7 +8,7 @@ export const ProjectSection = () => {
             <div className="mx-auto w-75 projects-grid">
                 {/* Projet: Sélection naturelle */}
                 <article className="project-card">
-                    <Image style={{objectFit: "contain"}} className={"rounded-circle"}  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Sélection naturelle - Java" width={160} height={160} unoptimized/>
+                    <Image style={{objectFit: "contain"}} className={"rounded-circle"}  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Sélection naturelle - Java" width={160} height={160}/>
                     <h3>Sélection naturelle</h3>
                     <p className="description">Il s'agit d'une petite simulation réalisée en JavaFX avec des attrapeurs et des fugitives qui possèdent différentes caractéristiques pour illustrer la sélection naturelle.</p>
                 </article>
@@ -22,7 +22,7 @@ export const ProjectSection = () => {
 
                 {/* Projet: Rental car */}
                 <article className="project-card">
-                    <Image style={{objectFit: "contain"}} className={"rounded-circle"} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original.svg" alt="Rental car (Angular/Laravel)" width={160} height={160} unoptimized/>
+                    <Image style={{objectFit: "contain"}} className={"rounded-circle"} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original.svg" alt="Rental car (Angular/Laravel)" width={160} height={160}/>
                     <h3>Rental car</h3>
                     <p className="description text-justify">Réalisation d'une application de location de voitures dans le cadre d'une SAE, développée en groupe avec Angular pour le front-end et communiquant avec un backend Laravel.</p>
                 </article>

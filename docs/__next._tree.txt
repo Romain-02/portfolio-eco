@@ -1,2 +1,0 @@
-:HL["/portfolio-eco/_next/static/chunks/df083451c001c429.css","style"]
-0:{"buildId":"os4JfnAcBSxjzbvyhuiy-","tree":{"name":"","paramType":null,"paramKey":"","hasRuntimePrefetch":false,"slots":{"children":{"name":"__PAGE__","paramType":null,"paramKey":"__PAGE__","hasRuntimePrefetch":false,"slots":null,"isRootLayout":false}},"isRootLayout":true},"staleTime":300}
